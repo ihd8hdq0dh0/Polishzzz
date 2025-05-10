@@ -1,26 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Polish</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background: url('https://cdn.pixabay.com/photo/2018/08/15/18/26/stars-3607284_960_720.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .container {
+            background-color: rgba(30, 30, 30, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+            margin: 20px;
+        }
+
+        .header {
+            font-size: 1.5em;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .text-box {
+            background-color: #222222;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            color: #d1d1d1;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            width: 100%;
+        }
+
+        .image-box {
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-box img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1 class="glitch-text">Polish</h1>
-    <div class="links">
-      <a href="https://www.tiktok.com/@dyedonce" target="_blank">My tiktok</a>
-      <a href="https://www.instagram.com/polacozzzz" target="_blank">My instagram</a>
-      <span>Discord: lastdayinthesky</span>
+
+    <div class="container">
+        <div class="header">
+            Quién soy
+        </div>
+        <div class="text-box">
+            Hi, Im Polish. <br>
+            I'm a mm. <br><br>
+            I hav around 500+ vouches and I mmed things that were around 1000€. <br><br>
+            If u want something u can dm me in discord "lastdayinthesky" <br><br>
+            
+        </div>
+        
+        <div class="header">
+            Imagen o GIF
+        </div>
+        <div class="image-box">
+            <img src="https://media1.tenor.com/m/nqDS8dLK5PYAAAAC/wifiskeleton.gif" alt="Imagen o GIF">
+        </div>
     </div>
-  </div>
 
-  <audio autoplay loop>
-    <source src="audio/nope-youre-too-late.mp3" type="audio/mpeg">
-    Tu navegador no soporta audio.
-  </audio>
-
-  <canvas id="background"></canvas>
-  <script src="script.js"></script>
 </body>
 </html>
